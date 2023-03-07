@@ -22,8 +22,8 @@ headers = {
 }
 
 
-with open("d:\check.txt",'w') as f:
-    f.write("2023-03-08")
+#with open("d:\check.txt",'w') as f:
+#    f.write("2023-03-08")
     
     
 def price():
@@ -45,8 +45,8 @@ cdate = datetime.today().strftime('%Y-%m-%d')
 
 
 
-with open("d:\check.txt",'w') as f:
-    f.write("2023-03-08")
+#with open("d:\check.txt",'w') as f:
+#    f.write("2023-03-08")
 
     
 def stock():
@@ -109,11 +109,11 @@ def main():
 
 
 
-with open("d:\check.txt",'r') as f:
-    if cdate=="2023-03-08":
-        print('please contact author for payment')
+#with open("d:\check.txt",'r') as f:
+#    if cdate=="2023-03-08":
+#        print('please contact author for payment')
 
-    else:
-        main()
+#    else:
+main()
 
 
